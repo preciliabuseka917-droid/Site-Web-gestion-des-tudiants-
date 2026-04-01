@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gestion des étudiants</title>
+        <style>
+            body {
+                font-family: Arial;
+                background: hsla(196, 44%, 77%, 0.974);
+                padding: 35PX;
+            }
+            h2 {
+                text-align: center;
+            }
+            .container {
+                max-width: 900px;
+                margin: auto;
+                background: whitesmoke;
+                padding: 70px;
+                border-radius: 20px;
+            }
+            input {
+                padding: 5px;
+                margin: 5px;
+                width: 50%;
+            }
+            button {
+                padding: 15px;
+                margin: 35px;
+                border: none;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+            .add {background: black; color: white;}
+            .delete{background: black; color: white;}
+            .update{background: black; color: white;}
+            .search{background: black; color: white;}
+            table {
+                width: 100%;
+                margin-top: 20px;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: center;
+            }
+            th {
+                background: #23a9e3e7;
+                color: hsla(100, 9%, 93%, 0.951);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>INSCRIPTION DES ETUDIANTS</h2>
+            <input type="text" id="nom" placeholder="Nom">
+            <input type="text" id="prenom" placeholder="prénom">
+            <input type="text" id="classe" placeholder="Classe">
+            <br>
+            <button class="add" onclick="ajouter()">Enregistre</button>
+            <button class="update" onclick="modifier()">Modifier</button>
+            <button class="delete" onclick="supprimer()">Supprimer</button>
+            <button class="search" onclick="rechercher()">Rechercher</button>
+            
+        </div>
+    </body>
+</html>

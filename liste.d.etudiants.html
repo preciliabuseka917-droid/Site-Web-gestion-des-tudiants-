@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>liste des étudiants</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: #f4f4f4;
+                margin: 0;
+            }
+            header {
+                background: #4facfe;
+                color: rgb(248, 245, 241);
+                padding: 15px;
+                text-align: center;
+                font-size: 22px;
+            }
+            .container {
+                width: 90%;
+                max-width: 900px;
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #f8eded;
+                border-radius: 5px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 12px;
+                border: 1px solid #43c7e5ed;
+                text-align: center;
+            }
+            th {
+                background: #4fbbfe;
+                color: rgb(248, 233, 233);
+            }
+            button {
+                padding: 6px 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                color: rgba(255, 255, 255, 0.959);
+            }
+            .delete {
+                background: rgba(255, 0, 21, 0.867);
+            }
+            .delete:hover {
+                background: darkred;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            Liste des étudiants inscrits
+        </header>
+     <div class="container">
+    <div class="card">
+        <div class="header">Liste des Étudiants Inscrits</div>
+        <div class="content">
+
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Email</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Dupont</td>
+                    <td>Jean</td>
+                    <td>jean.dupont@example.com</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Martin</td>
+                    <td>Sophie</td>
+                    <td>sophie.martin@example.com</td>
+                </tr>
+
+            </table>
+
+        </div>
+    </div>
+</div>
+
+
+    </body>
+</html>
+
